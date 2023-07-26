@@ -1,5 +1,52 @@
 {
   "dependencies": {
+    "com.leancloud.realtime": {
+      "version": "https://github.com/leancloud/csharp-sdk-upm.git#realtime-1.0.2",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.leancloud.storage": "https://github.com/leancloud/csharp-sdk-upm.git#storage-1.0.2"
+      },
+      "hash": "73c70db9d89e6115776b05badb8239b655a5d212"
+    },
+    "com.leancloud.storage": {
+      "version": "https://github.com/leancloud/csharp-sdk-upm.git#storage-1.0.2",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "beef2954fb0dbe2471952c34a32a5885a427ce9a"
+    },
+    "com.taptap.tds.bootstrap": {
+      "version": "https://github.com/TapTap/TapBootstrap-Unity.git#3.19.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.taptap.tds.common": "https://github.com/TapTap/TapCommon-Unity.git#3.19.0",
+        "com.taptap.tds.login": "https://github.com/TapTap/TapLogin-Unity.git#3.19.0",
+        "com.leancloud.realtime": "https://github.com/leancloud/csharp-sdk-upm.git#realtime-0.10.14",
+        "com.leancloud.storage": "https://github.com/leancloud/csharp-sdk-upm.git#storage-0.10.14"
+      },
+      "hash": "cb2927b842e6f80ccf67bb2957f0908789985b27"
+    },
+    "com.taptap.tds.common": {
+      "version": "https://github.com/TapTap/TapCommon-Unity.git#3.19.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.modules.ui": "1.0.0",
+        "com.leancloud.storage": "https://github.com/leancloud/csharp-sdk-upm.git#storage-0.10.14"
+      },
+      "hash": "1739e815c6003f4203c9c09c6f996b27190deab3"
+    },
+    "com.taptap.tds.login": {
+      "version": "https://github.com/TapTap/TapLogin-Unity.git#3.19.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.taptap.tds.common": "https://github.com/TapTap/TapCommon-Unity.git#3.19.0"
+      },
+      "hash": "5d91333e11455549a85478f984a2b857203b9e59"
+    },
     "com.unity.2d.animation": {
       "version": "7.0.6",
       "depth": 1,
